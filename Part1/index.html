@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<title>Hola Restaurant</title>
+	<link rel="stylesheet" type="text/css" href="CSS/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="CSS/styles.css">
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Oxygen:400,300,700">
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Lora">
+</head>
+</head>
+<body>
+	<nav>
+		<header id="header-nav" class="navbar navbar-default">
+			<div class="container">
+				<div class="navbar-header">				
+						<a href="index.html" class="pull-left visible-lg visible-md">
+							<div id="logo-img" alt="Logo" class="pull-left"></div>
+						</a>			
+
+					<div class="navbar-brand">
+						<a href="index.html"><h1>Unlimited Free Food Restaurant</h1></a>
+					</div>
+
+				<!-- Small Menu bar suitable for Mobile -->	
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+				        <span class="sr-only">Toggle navigation</span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+			      </button>
+
+				</div>
+
+				<div id="collapsable-nav" class="collapse navbar-collapse">
+					<ul id="nav-list" class="nav navbar-nav navbar-right">
+						<li>
+							<a href="menu-categories.html">
+								<span class="glyphicon glyphicon-cutlery"><br class="hidden-xs"> Menu</span></a>
+						</li>
+						<li>
+							<a href="#">
+								<span class="glyphicon glyphicon-info-sign"><br class="hidden-xs"> About</span></a>
+						</li>
+						<li>
+							<a href="#">
+								<span class="glyphicon glyphicon-warning-sign"><br class="hidden-xs"> Awards</span></a>
+						</li>
+						<li id="phone" class="hidden-xs">
+							<a href="tel:410-602-5008">
+								<span>123-456-7890</span></a><div>* We Deliver</div>
+						</li>
+					</ul>					
+				</div>			
+			</div>
+					
+		</header>
+				<div id="call-btn" class="visible-xs">
+					<a class="btn" href="tel:410-602-5008">
+						<span class="glyphicon glyphicon-earphone">123-456-7890</span></a><div>* We Deliver</div>
+				</div>	
+		
+		<div id="main-content" class="container">
+				<div class="jumbotron">
+					<img src="../img/restaurant-lg.jpg" alt="" class="img-responsive">
+				</div>
+
+				<div id="home-tiles" class="row">
+
+					<div class="col-md-4 col-sm-6 col-xs-12">
+						<a href="menu-categories.html"><div id="menu-tile"><span>menu</span>	
+						</div></a>
+					</div>
+
+					<div class="col-md-4 col-sm-6 col-xs-12">
+						<a href="single-category.html"><div id="specials-tile"><span>specials</span>	
+						</div></a>
+					</div>
+
+					<div class="col-md-4 col-sm-12 col-xs-12">
+						<a href="https://www.google.com/maps/place/860+Ridge+Lake+Blvd,+Memphis,+TN+38120/@35.1073487,-89.8686339,17z/data=!3m1!4b1!4m5!3m4!1s0x887f84bf05202097:0xdb2f3a7a83e4d207!8m2!3d35.1073487!4d-89.8664399" target="_blank">
+							<div id="map-tile">
+							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3263.972563970525!2d-89.8685826490023!3d35.10739596873834!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87d57e96d8cf9067%3A0x6b603202e1cc2ec9!2sServiceMaster!5e0!3m2!1sen!2sus!4v1479583639355" width="100%" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
+								<span>Map</span>
+							</div>
+						</a>	
+					</div>
+
+				</div>
+		</div> <!-- End of Main Content -->
+
+		<footer class="panel-footer">
+			<div class="container">
+				<div class="row">
+					<section id="hours" class="col-md-4">
+						<span>Hours : </span><br>
+						Sun-Thurs: 11:00am - 11pm<br>
+						Fri: 11:15am - 2:30pm <br>
+						<hr class="visible-xs">
+					</section>
+					<section id="address" class="col-sm-4">
+						<span>Address : </span><br>
+						9999 W Baker's Street<br>
+						New York, NY - 99999
+						<p>* Delivery within 3-4 miles, with minimum order of $20 plus $3 charge for all deliveries</p>
+						<hr class="visible-xs">
+					</section>
+					<section id="testimonials" class="col-sm-4">
+						<p>"The best leftover food that I ever had "</p>
+						<p>"The quality of food is amazing , never enjoyed free food this much !!"</p>
+						<hr class="visible-xs">
+					</section>
+				</div>
+			</div>
+			<div class="text-center">&copy; Copyright free unlimted food (left over) 2016
+				
+			</div>
+			
+		</footer>
+
+<script src="JS/jquery-3.1.1.min.js"></script>
+<script src="JS/bootstrap.min.js"></script>
+
+</body>
+</html>

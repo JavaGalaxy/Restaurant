@@ -1,0 +1,251 @@
+body {
+	font-size: 16px;
+	color: #fff;
+	background-color: indianred;
+	font-family: 'Oxygen',sans-serif;
+}
+
+.container.jumbotron 
+     {
+	padding :0px;
+	}
+
+
+#header-nav {
+	background-color: yellowgreen;
+	border-radius: 0;
+	border: 0;
+}
+
+#logo-img {
+	background:  url('../img/Capture.PNG') no-repeat;
+	width: 150px;
+	height: 80px;
+	margin: 15px 15px 10px 0;
+}
+
+.navbar-brand {
+	padding-top: 25px;
+}
+
+.navbar-brand h1{
+
+	font-family: 'Lora', serif;
+	color :  rgba(255, 255, 255, .15);
+	font-size: 1.5em;
+	/* text-transform: uppercase; */
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .75;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+
+#nav-list {
+	margin-top: 10px;
+}
+
+#nav-list a {
+	color: #951C49;
+	text-align: center;
+}
+
+#nav-list a:hover {
+	background: #E7E7E7;
+}
+
+#nav-list a span {
+	font-size: 1.2em;
+}
+
+#phone {
+	margin-top: 5px;
+}
+
+#phone a {
+	text-align: right;
+	padding-bottom: 0;
+}
+
+#phone div { /* We Deliver */
+	color:  #4911ba;
+	text-align: right;
+	padding-right: 15px;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border: 1px solid #61122f;
+}
+
+.call-btn {
+
+}
+/* .navbar-header button.navbar-toggle {
+	clear: both;
+} */
+
+/*End Header */
+
+.container.jumbotron {
+	padding :0px;
+}
+
+#menu-tile, #specials-tile, #map-tile {
+	height: 250px;
+	width: 100%;
+	border: 2px solid #3f0c1f;
+	margin-bottom: 15px;
+	position: relative;
+	overflow: hidden;
+}
+
+#menu-tile {
+	background: url('../img/hot-coco.jpg');	
+	background-position: center;
+}
+
+#special-tile {
+	background: url('../img/');
+	background-position: center;
+}
+
+#menu-tile:hover, #specials-tile:hover, #map-tile:hover {
+	box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+#menu-tile span, #specials-tile span, #map-tile span {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	text-align: center;
+	font-size: 1.6em;
+	text-transform: uppercase;
+	background-color: #000;
+	color:  #fff;
+	opacity: .7;
+
+}
+
+/* End Main Content */
+
+.panel-footer {
+	margin-top: 30px;
+	padding-top: 35px;
+	padding-bottom: 30px;
+	background-color: #222;
+	border-top: 0;
+}
+
+.panel-footer div.row{
+	margin-bottom: 35px;
+}
+
+#hours, #address {
+	line-height: 2;
+}
+
+#hours > span, #address > span {
+	font-size: 1.3em;
+}
+
+#address p {
+	color: #557c3e;
+	font-size: .9em;
+	line-height: 1.8;
+}
+
+#testimonials {
+	font-style: italic;
+	line-height: 2;
+}
+
+/*END FOOTER */
+
+/*MENU CATEGORIES PAGE */
+
+.category-title {
+	position: relative;
+	border: 2px solid #3F0C1F;
+	overflow: hidden;
+	width: 200px;
+	height: 200px;
+	margin: 0 auto 15px;
+}
+
+.category-title span {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	text-align: center;
+	font-size: 1.2em;
+	text-transform: uppercase;
+	background-color: #000;
+	color: #fff;
+	opacity: .8;
+
+}
+
+.category-title:hover {
+	box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+#menu-categories-title + div{
+	margin-bottom: 50px;
+}
+
+/*********** Super Extra small devices (e.g. iPhone 4) *******/
+
+@media (max-width: 479px) {
+	/*Header */
+	.navbar-brand h1{
+		padding-top: 5px;
+		font-size: 6vw; 
+	}
+
+	.col-xxs-12 {
+		position: relative;
+		min-height: 1px;
+		padding-right: 15px;
+		padding-left: 15px;
+		float: left;
+		width: 100%;
+	}
+}
+/********** Large Devices Only *************/
+@media (min-width: 1200px) {
+
+}
+
+/********** Medium Devices Only *************/
+@media (min-width: 992px) and (max-width: 1199px) {
+	#logo-img {
+	background:  url('../img/Capture_medium.PNG') no-repeat;
+	width: 100px;
+	height: 70px;
+	margin: 10px 10px 5px 0;
+}
+}
+
+/********** Small Devices Only *************/
+@media(min-width: 768px) and (max-width: 991px) {
+
+}
+
+/********** Extra small Devices Only *************/
+@media(max-width: 767px) {
+	.navbar-brand {
+		padding-top: 10px;
+		height: 80px;
+	}
+
+	.navbar-brand h1 {
+		padding-top: 10px;
+		font-size: 5vw;
+	}
+}
