@@ -149,7 +149,7 @@ body {
 	line-height: 2;
 }
 
-#hours > span, #address > span {
+#hours > span, #address > span , #testimonials > span{
 	font-size: 1.3em;
 }
 
@@ -199,6 +199,46 @@ body {
 	margin-bottom: 50px;
 }
 
+/* END MENU CATEGORIES */
+
+/* SINGLE CATEGORY PAGE */
+
+.menu-item-tile {
+	margin-bottom: 25px;
+}
+
+.menu-item-tile hr {
+	width: 80%;
+}
+
+.menu-item-tile .meni-item-price {
+	font-size: 1.1em;
+	text-align: right;
+}
+
+.menu-item-tile .menu-item-price span {
+	font-size :  .6em;
+}
+
+.menu-item-photo {
+	position:  relative;
+	border:  2px solid #3F0C1F;
+	overflow: hidden;
+	padding: 0;
+	margin-right: -15px;
+	margin-left: auto;
+	margin-bottom: 20px;
+	max-width: 250px;
+}
+
+.menu-item-photo div {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 30px;
+	background-color: #557c3e;
+	text-align: center;
+}
 /*********** Super Extra small devices (e.g. iPhone 4) *******/
 
 @media (max-width: 479px) {
